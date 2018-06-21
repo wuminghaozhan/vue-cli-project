@@ -13,7 +13,15 @@
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js"
   },
+  "keywords": [
+    "vue",
+    "element-ui",
+    "admin",
+    "back-stage-management"
+  ],
   "dependencies": {
+    "element-ui": "^2.4.1",
+    "normalize.css": "^8.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
